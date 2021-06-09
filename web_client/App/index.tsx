@@ -13,10 +13,13 @@ const App = () => {
 
   return(
     <div id="app-main">
-      <h1>Hello Selenium</h1> 
+      <h1 id="header">Hello Selenium</h1> 
       <div id="-container">
-        <h3>{saying}</h3>
-        <Button onClick={handleClick}>
+        <h3 id="saying">{saying}</h3>
+        <Button
+          id="button"
+          onClick={handleClick}
+        >
           {'Add a y'}
         </Button>
       </div>
