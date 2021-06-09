@@ -1,7 +1,7 @@
 {
-  "name": "connect_web_ui",
+  "name": "e2e_testing",
   "version": "0.0.1",
-  "description": "React web UI",
+  "description": "Basic react app",
   "main": "index.js",
   "typings": "./App/components/lib/types.ts",
   "scripts": {
@@ -9,8 +9,8 @@
     "create": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "powerhome",
-  "license": "ISC",
+  "author": "andrew-k9",
+  "license": "MIT",
   "babel": {
     "presets": [
       "@babel/preset-env",
