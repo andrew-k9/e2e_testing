@@ -7,18 +7,20 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
     @State var saying: String = "hey"
     
     var body: some View {
         VStack(alignment: .leading) {
             Text("Hello Selenium")
-            Text("\(saying)")
+                .id("header")
+            Text("\(saying)").id("saying")
             Button(action:{
                 self.saying += "y"
             }, label: {
                 Text("Add y")
-            })
+            }).id("button")
         }.padding()
     }
 }

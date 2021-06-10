@@ -2,6 +2,8 @@ node_modules/
 
 geckodriver.log
 
+.DS_Store
+
 ## User settings
 xcuserdata/
 

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><AppiumAUT><XCUIElementTypeApplication type="XCUIElementTypeApplication" name="basicApp" label="basicApp" enabled="true" visible="true" accessible="false" x="0" y="0" width="375" height="812" index="0">
+  <XCUIElementTypeWindow type="XCUIElementTypeWindow" enabled="true" visible="true" accessible="false" x="0" y="0" width="375" height="812" index="0">
+    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="375" height="812" index="0">
+      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="375" height="812" index="0">
+        <XCUIElementTypeOther type="XCUIElementTypeOther" enabled"true" visible="true" accessible="false" x="0" y="0" width="375" height="812" index="0">
+          <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Hello Selenium" name="Hello Selenium" label="Hello Selenium" enabled="true" visible="true" accessible="true" x="131" y="380" width="114" height="21" index="0"/>
+          <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="hey" name="hey" label="hey" enabled="true" visible="true" accessible="true" x="131" y="401" width="28" height="21" index="1"/>
+          <XCUIElementTypeButton type="XCUIElementTypeButton" name="Add y" label="Add y" enabled="true" visible="true" accessible="true" x="131" y="421" width="44" height="21" index="2"/>
+        </XCUIElementTypeOther>
+      </XCUIElementTypeOther>
+    </XCUIElementTypeOther>
+  </XCUIElementTypeWindow>
+</XCUIElementTypeApplication></AppiumAUT>=
