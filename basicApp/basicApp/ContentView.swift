@@ -14,13 +14,12 @@ struct ContentView: View {
     var body: some View {
         VStack(alignment: .leading) {
             Text("Hello Selenium")
-                .id("header")
-            Text("\(saying)").id("saying")
+            Text("\(saying)")
             Button(action:{
                 self.saying += "y"
             }, label: {
                 Text("Add y")
-            }).id("button")
+            })
         }.padding()
     }
 }
